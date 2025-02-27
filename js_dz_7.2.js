@@ -19,6 +19,6 @@ var arr = [
 
 const regex = /^[a-zA-Z0-9]+(?:\.[a-zA-Z0-9]+)*@(gmail\.com|yahoo\.com)$/;
 
-const trustedEmails = arr.filter(item => regex.test(item.email));
+const validDomain = arr.filter(item => regex.test(item.email));
 
-console.log(trustedEmails);
+console.log(validDomain);
