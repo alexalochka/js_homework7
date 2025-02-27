@@ -15,4 +15,3 @@ console.log(alice.match(pattern))
 // let pattern2 = /\b[^Aa\s]{6,}\b/g;
 // console.log(str.match(pattern2));
 
-//Єдине ще питання, якщо ми робимо виключекння [^] - ми вже в цих квадратних дужках не можемо вказати те, що НЕ потрібно виключати?
